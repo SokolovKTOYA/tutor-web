@@ -1,0 +1,141 @@
+html {
+  margin: 0%;
+  padding: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #e8e8e8;
+}
+.header-tutor {
+  width: 200px;
+  height: 150px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+}
+.nav {
+  display: grid;
+  grid-column: 2 / 5;
+}
+.rightmenu {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+.rightmenu a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+  padding: 20px;
+  color: black;
+}
+.rightdown {
+  justify-content: center;
+  align-self: center;
+  text-decoration: none;
+}
+
+// MAIN
+.acquaintance {
+  background-color: #636262;
+  border-radius: 20px;
+  padding-bottom: 50px;
+  img {
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+h1 {
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.level {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+input {
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+}
+.money {
+  gap: 50px;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  button {
+    justify-content: center;
+    align-content: center;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    font-size: 20px;
+  }
+}
+.purple {
+  background-color: #636262;
+  border-radius: 20px;
+}
+.subject {
+  margin-top: 20px;
+  padding: 50px;
+  gap: 100px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: #636262;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  color: white;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  label {
+    font-size: 30px;
+  }
+  select {
+    width: 300px;
+    font-size: 20px;
+  }
+}
+.female {
+  background-color: #636262;
+  color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  p {
+    color: white;
+    font-size: 17px;
+  }
+  img {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100px;
+  }
+}
